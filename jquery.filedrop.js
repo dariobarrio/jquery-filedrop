@@ -326,6 +326,12 @@
             reader.readAsDataURL(files[fileIndex]);
 
           } else {
+            // Remove from queue
+            processingQueue.forEach(function(value, key) {
+              if (value === fileIndex) {
+                processingQueue.splice(key, 1);
+              }
+            });
             filesRejected++;
           }
         } catch (err) {
