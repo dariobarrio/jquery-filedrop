@@ -1,0 +1,16 @@
+{
+    "name": "jquery-filedrop-latest",
+    "version": "1.0.1",
+    "main": "path/to/main.css",
+    "description": "please add it",
+    "ignore": [
+        ".jshintrc",
+        "**/*.txt"
+    ],
+    "dependencies": {
+
+    },
+    "devDependencies": {
+
+    }
+}
